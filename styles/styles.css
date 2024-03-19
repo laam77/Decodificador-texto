@@ -3,16 +3,16 @@
 
 :root {
   --cor-preto: #000000;
-  --cor-branco: #dfe0e9;
-  --cor-terciaria: #0a3871;
-  --cor-hover: #272727;
+  --cor-fundo: #2C3333;
+  --cor-terciaria: #0E8388;
+  --cor-hover: #000000;
 
   --fonte-primaria: "Krona One", sans-serif;
   --fonte-secundaria: "Montserrat", sans-serif;
 }
 
 * {
-  background-color: var(--cor-branco);
+  background-color: var(--cor-fundo);
   color: var(--cor-preto);
   font-family: var(--fonte-primaria);
   font-weight: 400;
@@ -23,6 +23,7 @@
 .cabecalho {
   display: flex;
   flex-direction: row;
+  margin-left: 5%;
   gap: 40px;
   align-items: center;
 }
@@ -48,7 +49,7 @@ main {
 }
 
 .mensagem {
-  background-color: #f6f6f6;
+  background-color: #CBE4DE;
   background-image: url(/assets/boneco.png);
   background-repeat: no-repeat;
   border: none;
@@ -82,6 +83,7 @@ main {
 }
 
 .btn-encriptar {
+  font-size: medium;
   background-color: var(--cor-terciaria);
   border: 1px solid var(--cor-terciaria);
   border-radius: 24px;
@@ -92,7 +94,8 @@ main {
 }
 
 .btn-desencriptar {
-  background: var(--cor-branco);
+  font-size: medium;
+  background: var(--cor-fundo);
   border: 1px solid var(--cor-terciaria);
   border-radius: 24px;
   color: var(--cor-terciaria);
@@ -103,6 +106,7 @@ main {
 }
 
 .btn-copiar {
+  font-size: small;
   border: 1px solid var(--cor-terciaria);
   border-radius: 24px;
   color: var(--cor-terciaria);
@@ -120,6 +124,6 @@ main {
   padding: 24px;
   text-align: center;
   font-family: var(--fonte-secundaria);
-  font-size: 1rem;
+  font-size: larger;
   font-weight: 400;
 }
