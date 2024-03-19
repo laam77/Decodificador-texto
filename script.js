@@ -1,7 +1,7 @@
 const texto = document.querySelector(".text-area");
 const mensagem = document.querySelector(".mensagem");
 const vogais = ["a", "e", "i", "o", "u"];
-const chaves = ["ai", "enter", "imes", "ober", "ufat"];
+const chaves = ["at", "enter", "imes", "ober", "ufa"];
 
 function encriptar(texto) {
   textoEnMinusculas = texto.toLowerCase();
